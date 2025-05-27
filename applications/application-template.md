@@ -1,189 +1,146 @@
-# Name of your Project
+Name of your Project
+Team Name: Fuels24 Inc.
+Payment Details:
 
-> [!NOTE]
-> This document will be part of the terms and conditions of your agreement and, therefore, needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines (except for the title)! Lines starting with a `>` (such as this one) should be removed. Please use markdown instead of HTML (e.g., `![](image.png)` instead of `<img>`).
->
-> See the [Grants Program Process](https://grants.web3.foundation/docs/process) on how to submit a proposal.
+DOT: 
 
-- **Team Name:** Legal name of your team (e.g. JsonCorp)
-- **Payment Details:**
-  - **DOT**: For the **DOT** compensation, please provide a Polkadot address (e.g. 15oF4...).
-  - **Payment**: In case of payment in **USDC**, please provide a Polkadot AssetHub address and the currency (e.g. 15oF4... (USDC)). In the case of **fiat** payment, please share your bank account privately with grants@web3.foundation via your contact email (see below) and list here the date and time of your email (e.g. Fiat 24.12.1971, 11:59). 
-- **[Level](https://grants.web3.foundation/docs/Introduction/levels):** 1, 2 or 3
+Payment: Fiat — shared with grants@web3.foundation on 27.05.2025, 09:00 UTC
+Level: 1
 
-> [!IMPORTANT]
-> *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
+Project Overview :page_facing_up:
+Overview
+Fuels24 is an AI-driven energy trading marketplace that optimizes fuel delivery and procurement using predictive analytics and blockchain for transparency. It provides price discovery, logistics matching, and contract automation between energy buyers and sellers.
 
-## Project Overview :page_facing_up:
+Relation to Substrate/Polkadot/Kusama:
+We intend to integrate with Substrate to provide decentralized identity for participants, immutable audit trails, and transparent settlement using AssetHub USDC or DOT.
 
-If this application is in response to an RFP, please indicate this on the first line of this section.
+Why this project?
+Fuel pricing and delivery are outdated, fragmented, and opaque. With AI and blockchain, Fuels24 will streamline operations and create a fair and efficient energy marketplace.
 
-If this is an application for a follow-up grant (the continuation of an earlier, successful W3F grant), please provide the name and/or pull request of said grant on the first line of this section.
+Project Details
+UI: Dynamic city selection interface, delivery forecast visualizer, P2P order boards
 
-### Overview
+APIs: REST APIs for energy product listing, price prediction, settlement, and logistics optimization
 
-Please provide the following:
+Stack: Python (AI), Flask (backend), React (frontend), PostgreSQL, Substrate, Polkadot-JS
 
-- If the name of your project is not descriptive, a tagline (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
-- An indication of why your team is interested in creating this project.
+PoC: MVP tested in Europe and Asia, >3,000 users onboarded
 
-### Project Details
+Not included: Token issuance, financial services, external DEX integration in this phase
 
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
+Ecosystem Fit
+Fit: Our backend will utilize Substrate modules for smart contract-based settlement and verification
 
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is *not* or will *not* provide or implement
-  - This is a place for you to manage expectations and clarify any limitations that might not be obvious
+Audience: Energy companies, retail buyers, refineries, and dApp developers integrating fuel data
 
+Need: Transparent fuel pricing, lower delivery costs, AI-based logistics, carbon footprint tracking
 
-Things that shouldn’t be part of the application (see also our [FAQ](../docs/faq.md)):
+Evidence: Energy deregulation, volatile prices, lack of digital infrastructure for SMEs
 
-- The (future) tokenomics of your project
-- For non-infrastructure projects—deployment and hosting costs, maintenance or audits
-- Business-oriented activities (marketing, business planning), events or outreach
+Competition: Arcadia, Span.io, Colossus, FOHAT. We uniquely combine AI + blockchain + financial services
 
-### Ecosystem Fit
+Other ecosystems: Some attempts in centralized platforms, but no Substrate-based marketplace yet
 
-Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
+Team :busts_in_silhouette:
+Team members
 
-- Where and how does your project fit into the ecosystem?
-- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-- What need(s) does your project meet?
-- How did you identify these needs? Please provide evidence in the form of (scientific) articles, forum discussions, case studies, or raw data.
-- Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
-  - If so, how is your project different? Please identify and assess any projects addressing the same need and explain how your project is distinct. Feel free to include applicable research data, statistics, or metrics.
-  - If not, please indicate why such a project might not have been possible, successful, or attempted. 
-- Are there any projects similar to yours in related ecosystems? 
+Glenn Zamyatin (CEO)
 
-## Team :busts_in_silhouette:
+Denis Zamyatin (CTO)
 
-> [!IMPORTANT]
-> Please note that the data provided in this section is for administrative and informational purposes only. All beneficiaries of a grant must also be listed in the KYC/KYB process during the application phase. See our [FAQ](https://grants.web3.foundation/docs/faq#what-is-kyckyb-and-why-do-i-have-to-provide-this-data) for more info.
+Gala Yavich (Legal)
 
-### Team members
+Boris Litvak (Advisor)
 
-- Name of team leader
-- Names of team members
+Contact
 
-### Contact
+Name: Glenn Zamyatin
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:** Your website
+Email: z@fuels24.com
 
-### Legal Structure
+Website: https://www.fuels24.com
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+Legal Structure
 
-### Team's experience
+Address: Houston, TX 77019, USA
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past.
+Entity: Fuels24 Inc.
 
-If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
+Experience
+The team combines 75+ years in energy, AI, software engineering, and legal compliance.
 
-### Team Code Repos
+Glenn: 26 years in business ops/finance
 
-- https://github.com/{your_organisation}/{project_1}
-- https://github.com/{your_organisation}/{project_2}
+Denis: 15 years in scalable systems and e-commerce
 
-Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
+Boris: 30 years in oil & gas, ex-Texaco VP
 
-- https://github.com/{team_member_1}
-- https://github.com/{team_member_2}
+Gala: Legal expert with Big 4 background
 
-### Team LinkedIn Profiles (if available)
+GitHub
 
-- https://www.linkedin.com/{person_1}
-- https://www.linkedin.com/{person_2}
+Gleb-fuels24
 
+LinkedIn
 
-## Development Status :open_book:
+https://www.linkedin.com/in/glebzamyatin/
 
-If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
+https://www.linkedin.com/in/gala-yavich/
 
-- links to improvement proposals or [RFPs](https://grants.web3.foundation/docs/rfps) (requests for proposal),
-- academic publications relevant to the problem,
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to this project with anyone from the Web3 Foundation,
-- previous interface iterations, such as mock-ups and wireframes.
+Development Status :open_book:
+MVP launched in USA
 
-## Development Roadmap :nut_and_bolt:
+Functional backend with API
 
-This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/Support%20Docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe *the functionality we should expect in as much detail as possible*, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
+UI mockups for logistics dashboard and carbon tracker
 
-Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Substrate, Kusama or Polkadot. We *recommend* that teams structure their roadmap as 1 milestone ≈ 1 month.
+Backend + AI pipeline tested with historical datasets
 
-> [!CAUTION]
-> If any of your deliverables are based on somebody else's work, make sure you work and publish *under the terms of the license* of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Projects that submit other people's work without proper attribution will be immediately terminated.**
+Investor deck, pilot client feedback, and roadmap validated
 
-### Overview
+Development Roadmap :nut_and_bolt:
+Overview
+Duration: 2 months
 
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested.
-- **DOT %:** Percentage of Total Costs to be paid in (vested) DOT (≥ 50%)
+FTE: 2
 
-### Milestone 1 Example — Basic functionality
+Total Cost: $25,000
 
-- **Estimated duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
+DOT %: 50%
 
-> [!NOTE]
-> **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one.
+Milestone 1
+Number	Deliverable	Specification
+0a.	License	Apache 2.0
+0b.	Documentation	GitHub README and tutorials on AI fuel price forecasting
+0c.	Testing Guide	Unit tests for API and ML model integration
+0d.	Docker	Docker image for deployment
+0e.	Article	Medium: “AI + Blockchain for Fuel Logistics”
+1.	Substrate smart contract for delivery SLA	
+2.	AI demand predictor model trained and integrated	
+3.	REST API for order creation and price quote	
+4.	UI integration with Polkadot wallet login	
+5.	Forecast simulator with WTI and HDD inputs	
 
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense. See the [delivery guidelines](https://grants.web3.foundation/docs/Support%20Docs/milestone-deliverables-guidelines#license) for details. |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. See the [delivery guidelines](https://grants.web3.foundation/docs/Support%20Docs/milestone-deliverables-guidelines#documentation) for details. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. See the [delivery guidelines](https://grants.web3.foundation/docs/Support%20Docs/milestone-deliverables-guidelines#testing-guide) for details. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language, and medium should reflect your target audience described above.) |
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
-| 2. | Substrate module: Y | The Y Substrate module will... |
-| 3. | Substrate module: Z | The Z Substrate module will... |
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
-| 5. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
-| 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
+Future Plans
+Expand marketplace in USA
 
+Monetize via subscription, commissions, and data sales
 
-### Milestone 2 Example — Additional features
+Integrate IoT sensors and energy storage forecasting
 
-- **Estimated Duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
+Long term: DAO-based governance of fuel standards and routing policies
 
-...
+Referral Program
+Referrer: N/A
 
+Payment Address: 
 
-## Future Plans
+Additional Information
+How did you hear about the program?
+Through the Web3 Foundation website and community on Element
 
-Please include here
+Anything else?
 
-- how you intend to finance the project's long-term maintenance and development,
-- how you intend to use, enhance, and promote your project in the short term, and
-- the team's long-term plans and intentions in relation to it.
+AI fuel price forecasting saves 5–10% per order
 
-## Referral Program (optional) :moneybag:
-
-You can find more information about the program [here](https://grants.web3.foundation/docs/referral-program).
-
-- **Referrer:** Name of the Polkadot Ambassador or GitHub account of the Web3 Foundation grantee
-- **Payment Address:** Polkadot/Kusama (USDC) payment address. Please also specify the currency. (e.g. 15oF4... (USDC))
-
-## Additional Information :heavy_plus_sign:
-
-**How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
-
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
-
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
-- Previous grants you may have applied for.
+MVP shows 157% revenue growth with zero CAC
